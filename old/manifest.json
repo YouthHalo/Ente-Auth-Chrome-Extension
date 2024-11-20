@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "UNOFFICIAL Ente Auth Extension",
+  "description": "An UNOFFICIAL and very Basic Chrome Extension for Ente Auth 2FA codes",
+  "version": "1.0",
+	"permissions": ["scripting"],
+	"host_permissions": ["https://auth.ente.io/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "enteauth.png"
+  }
+}

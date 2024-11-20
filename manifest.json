@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "Auth",
+	"short_name": "Auth",
+	"version": "1.0",
+	"description": "ente two-factor authenticator",
+	"permissions": ["scripting"],
+	"host_permissions": ["https://auth.ente.io/*"],
+	"action": {
+		"default_popup": "index.html",
+		"default_icon": "enteauth.png"
+	}
+}
